@@ -20,8 +20,11 @@ This project implements a real-time face detection and recognition system using 
 ## Usage
 
 ### 1. Data Collection
-
 Run `collect_data.py` to capture face images.
+
+```bash
+python collect_data.py
+```
 - ** The script will capture images from the IP camera feed.
 - ** Enter the name of the person being captured when prompted.
 - ** Ensure at least 100 images are captured for each person.
@@ -31,34 +34,37 @@ Run consolidated_data.py to preprocess and save the images for training.
 
 ```bash
 python consolidated_data.py
-3. Run Face Recognition
-Run recognize.py to start the face detection and recognition system.
+```
+### 3. Run Face Recognition
+Run `recognize.py` to start the face detection and recognition system.
 
-bash
-Copy code
+```bash
 python recognize.py
-Note:
-Modify the IP camera URL in the scripts if necessary.
-Ensure the paths to haarcascade_frontalface_default.xml and final_model.h5 are correct.
-Dependencies
-Python 3.x
-OpenCV
-Keras
-NumPy
-Matplotlib
-urllib
-pickle
+```
+## Note:
+- ** Modify the IP camera URL in the scripts if necessary.
+- ** Ensure the paths to haarcascade_frontalface_default.xml and final_model.h5 are correct.
+  
+## Dependencies:
+- ** Python 3.x
+- ** OpenCV
+- ** Keras
+- ** NumPy
+- ** Matplotlib
+- ** urllib
+- ** pickle
+
 Install the dependencies using pip:
 
-bash
-Copy code
+```bash
 pip install opencv-python keras numpy matplotlib
-Screenshots
-(Add relevant screenshots of your application here)
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
+```
+## Acknowledgments
 The project utilizes the Haar Cascade Classifier for face detection.
 Inspired by various online tutorials and resources on face detection and recognition using deep learning.
+```bash
+python collect_data.py
+```
+- ** The script will capture images from the IP camera feed.
+- ** Enter the name of the person being captured when prompted.
+- ** Ensure at least 100 images are captured for each person.

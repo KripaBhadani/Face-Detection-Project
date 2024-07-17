@@ -22,18 +22,14 @@ This project implements a real-time face detection and recognition system using 
 ### 1. Data Collection
 
 Run `collect_data.py` to capture face images.
-
-```bash
-python collect_data.py
-
 - ** The script will capture images from the IP camera feed.
 - ** Enter the name of the person being captured when prompted.
 - ** Ensure at least 100 images are captured for each person.
-2. Preprocess Data
+
+### 2. Preprocess Data
 Run consolidated_data.py to preprocess and save the images for training.
 
-bash
-Copy code
+```bash
 python consolidated_data.py
 3. Run Face Recognition
 Run recognize.py to start the face detection and recognition system.

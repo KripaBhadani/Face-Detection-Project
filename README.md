@@ -25,9 +25,9 @@ Run `collect_data.py` to capture face images.
 ```bash
 python collect_data.py
 ```
-- ** The script will capture images from the IP camera feed.
-- ** Enter the name of the person being captured when prompted.
-- ** Ensure at least 100 images are captured for each person.
+- The script will capture images from the IP camera feed.
+- Enter the name of the person being captured when prompted.
+- Ensure at least 100 images are captured for each person.
 
 ### 2. Preprocess Data
 Run consolidated_data.py to preprocess and save the images for training.
@@ -42,17 +42,17 @@ Run `recognize.py` to start the face detection and recognition system.
 python recognize.py
 ```
 ## Note:
-- ** Modify the IP camera URL in the scripts if necessary.
-- ** Ensure the paths to haarcascade_frontalface_default.xml and final_model.h5 are correct.
+- Modify the IP camera URL in the scripts if necessary.
+- Ensure the paths to haarcascade_frontalface_default.xml and final_model.h5 are correct.
   
 ## Dependencies:
-- ** Python 3.x
-- ** OpenCV
-- ** Keras
-- ** NumPy
-- ** Matplotlib
-- ** urllib
-- ** pickle
+- Python 3.x
+- OpenCV
+- Keras
+- NumPy
+- Matplotlib
+- urllib
+- pickle
 
 Install the dependencies using pip:
 
@@ -65,6 +65,6 @@ Inspired by various online tutorials and resources on face detection and recogni
 ```bash
 python collect_data.py
 ```
-- ** The script will capture images from the IP camera feed.
-- ** Enter the name of the person being captured when prompted.
-- ** Ensure at least 100 images are captured for each person.
+- The script will capture images from the IP camera feed.
+- Enter the name of the person being captured when prompted.
+- Ensure at least 100 images are captured for each person.
